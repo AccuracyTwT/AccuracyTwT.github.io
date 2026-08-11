@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>VS Code 配置指北</title>
+    <link href="/2026/08/11/VS%20Code%20%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8C%97/"/>
+    <url>/2026/08/11/VS%20Code%20%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8C%97/</url>
+    
+    <content type="html"><![CDATA[<h1 id="VS-Code-配置指北"><a href="#VS-Code-配置指北" class="headerlink" title="VS Code 配置指北"></a>VS Code 配置指北</h1><p>大抵是很简单的，需者自取。</p><p>这是一篇 VS Code 的配置指北，其实有一个便携版。（不会真的有人在 Linux 下不会配置吧……）</p><span id="more"></span><h2 id="请选择你的编译器"><a href="#请选择你的编译器" class="headerlink" title="请选择你的编译器"></a>请选择你的编译器</h2><p>如果有且已加入环境变量可跳过。</p><h3 id="Mingw-w64-GCC"><a href="#Mingw-w64-GCC" class="headerlink" title="Mingw-w64 GCC"></a>Mingw-w64 GCC</h3><p>前往 <a href="https://www.mingw-w64.org/downloads/#mingw-w64-builds">Mingw-w64</a>，下载 Mingw-w64-Builds。在 <a href="https://github.com/niXman/mingw-builds-binaries/releases">Github</a> 界面下选择 <code>x86_64-xx.x.x-release-posix-seh-ucrt-rt_v14-rev1.7z</code>，下载。如果下的慢可以 <del>使用 PCL2 下载</del> 使用各种光速下载器。</p><p>然后解压，找到 <code>/mingw64/bin/</code>，复制路径。右键此电脑，点击属性，进入高级系统设置，点击环境变量。更改 Path 环境变量（为自己安装就改上面的，否则改下面的），新建项，把路径复制进去，<strong>记得带末尾的 &#x2F;</strong>，确定退出。</p><p>新开一个 cmd 窗口，输入 <code>g++ -v</code> 和 <code>gdb -v</code>，如果输出了一大堆东西就成功了。</p><h3 id="LLVM-Clang"><a href="#LLVM-Clang" class="headerlink" title="LLVM Clang"></a>LLVM Clang</h3><p>不会，咕咕咕。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>环境配置</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>说句闲话：搭建 Hexo 博客的最好方式是</title>
     <link href="/2026/07/22/%E8%AF%B4%E5%8F%A5%E9%97%B2%E8%AF%9D%EF%BC%9A%E6%90%AD%E5%BB%BA%20Hexo%20%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%9C%80%E5%A5%BD%E6%96%B9%E5%BC%8F%E6%98%AF/"/>
     <url>/2026/07/22/%E8%AF%B4%E5%8F%A5%E9%97%B2%E8%AF%9D%EF%BC%9A%E6%90%AD%E5%BB%BA%20Hexo%20%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%9C%80%E5%A5%BD%E6%96%B9%E5%BC%8F%E6%98%AF/</url>
